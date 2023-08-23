@@ -452,6 +452,7 @@ img {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  display: flex;
 }
 .circle-item {
   width: 198px;
