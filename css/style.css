@@ -446,6 +446,9 @@ img {
   border-radius: 320px;
   border: 14px solid #8176af;
   background-color: #8176af;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 .circle-item {
   width: 198px;
@@ -520,3 +523,94 @@ img {
   align-items: center;
 }
 /** --------------FORM--------------- */
+.section-form {
+  background: #302c42;
+  padding-bottom: 80px;
+}
+.container-form-item {
+  min-width: 343px;
+  max-height: 973px;
+  border-radius: 40px;
+  background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 45px 22px 65px 22px;
+}
+.text-join {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.text-experience {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 36px;
+}
+.input-form {
+  border-radius: 40px;
+  border: 2px solid #fff;
+  width: 100%;
+  height: 53px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 29px;
+  margin-bottom: 22px;
+  background-color: inherit;
+}
+
+.input-comment {
+  border-radius: 40px;
+  border: 2px solid #fff;
+  width: 100%;
+  height: 219px;
+  padding-left: 29px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 52px;
+  padding-top: 18px;
+  background-color: inherit;
+}
+
+.input-form::placeholder {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input-comment::placeholder {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form-button {
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  color: #343045;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  padding: 15px 85px;
+  margin-left: 12px;
+}
+/** --------------footer-section--------------- */
+.footer-section {
+  background: #302c42;
+}
