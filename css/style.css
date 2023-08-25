@@ -40,7 +40,9 @@ ul {
 img {
   display: block;
 }
+
 /** --------------header--------------- */
+
 .header-container {
   background: #302c42;
   padding-top: 25px;
@@ -64,11 +66,19 @@ img {
   border: none;
   cursor: pointer;
   outline: none;
+  z-index: 99;
 }
+.tablet-header-list {
+  display: none;
+}
+
 /** --------------section-1--------------- */
 .vector-girl {
   position: relative;
   z-index: 99;
+}
+.vector-four-comp {
+  display: none;
 }
 
 .vector-one {
@@ -118,13 +128,32 @@ img {
   font-weight: 700;
   line-height: normal;
   border: none;
-  padding: 18px 69px;
+  padding: 18px 38px;
   z-index: 99;
+  margin-left: 68px;
 }
 .container-dive {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.text-lorem {
+  display: none;
+}
+.icon-header-comp {
+  display: none;
+}
+.container-virtual-reality {
+  z-index: 99;
+}
+.mask-group {
+  display: block;
+}
+.mask-group-comp {
+  display: none;
+}
+.main-aidia {
+  display: none;
 }
 /** --------------section-2--------------- */
 .section-map {
@@ -164,6 +193,9 @@ img {
   border: none;
   cursor: pointer;
   outline: none;
+}
+.container-adres-comp {
+  display: none;
 }
 /** --------------section-3--------------- */
 .section-hydra {
@@ -217,6 +249,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.container-man-comp {
+  display: none;
+}
+.container-man-about {
+  display: none;
 }
 /** --------------section-4--------------- */
 .section-girl {
@@ -346,6 +384,12 @@ img {
   justify-content: center;
   align-items: center;
 }
+.container-tel-es {
+  display: block;
+}
+.container-comp-pipel {
+  display: none;
+}
 /** --------------section-5--------------- */
 .section-used-item {
   padding-top: 56px;
@@ -374,7 +418,15 @@ img {
   position: relative;
   bottom: 121px;
 }
-
+.img-tehno-comp {
+  display: none;
+}
+.conteiner-group {
+  display: none;
+}
+.container-girl-button {
+  display: none;
+}
 /** --------------section-6--------------- */
 .section-vive {
   background: #302c42;
@@ -437,6 +489,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.container-img-comp {
+  display: none;
 }
 /** --------------section-7--------------- */
 .section-build {
@@ -547,6 +602,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.conteiner-spec-number {
+  display: none;
 }
 /** --------------FORM--------------- */
 .section-form {
