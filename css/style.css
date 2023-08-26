@@ -71,7 +71,9 @@ img {
 .tablet-header-list {
   display: none;
 }
-
+.butoon-build-comp {
+  display: none;
+}
 /** --------------section-1--------------- */
 .vector-girl {
   position: relative;
@@ -874,3 +876,89 @@ button:active {
   }
 }
 /** --------------BUTTON--------------- */
+.butoon-build:active {
+  transform: scale(0.95);
+}
+.butoon-build {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #3954ad;
+  background: linear-gradient(
+    90deg,
+    rgb(148, 129, 230) 0%,
+    rgb(79, 88, 209) 100%
+  );
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(99, 79, 209, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+}
+
+.butoon-build::before {
+  content: "";
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #00aeff;
+  box-shadow: 0 0 60px rgba(232, 232, 236, 0.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.butoon-build:hover,
+.butoon-build:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+.butoon-build:hover::before,
+.butoon-build:focus::before {
+  opacity: 1;
+}
+
+.butoon-build::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #f4f4f8;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+.butoon-build:hover::after,
+.butoon-build:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
