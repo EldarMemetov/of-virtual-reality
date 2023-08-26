@@ -755,3 +755,12 @@ img {
   letter-spacing: 1.82px;
   text-align: center;
 }
+.footer-item-comp {
+  display: none;
+}
+.footer-next-comp {
+  display: none;
+}
+.comp-footer-conteiner {
+  display: none;
+}

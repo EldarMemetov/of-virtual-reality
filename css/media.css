@@ -136,14 +136,23 @@
   .container-girl-button {
     display: none;
   }
-}
-.container-img-comp {
-  display: none;
-}
-.conteiner-spec-number {
-  display: none;
-}
 
+  .container-img-comp {
+    display: none;
+  }
+  .conteiner-spec-number {
+    display: none;
+  }
+  .footer-item-comp {
+    display: none;
+  }
+  .footer-next-comp {
+    display: none;
+  }
+  .comp-footer-conteiner {
+    display: none;
+  }
+}
 /** --------------NEXT--------------- */
 
 @media screen and (min-width: 1440px) {
@@ -608,6 +617,7 @@
     align-items: center;
   }
   /** --------------Section-5--------------- */
+
   .vivo-button-left {
     display: none;
   }
@@ -620,6 +630,7 @@
   .section-vive {
     background: #302c42;
     margin-top: 0px;
+    padding-bottom: 100px;
   }
   .container-img-comp {
     display: block;
@@ -843,5 +854,94 @@
   }
   /** --------------FORM--------------- */
   .section-form {
+  }
+  /** --------------FOOTER--------------- */
+  .footer-item-comp {
+    display: block;
+  }
+  .footer-next-comp {
+    display: block;
+  }
+  .footer-link-comp {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .tel-footer-container {
+    display: none;
+  }
+  .comp-footer-conteiner {
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+  }
+
+  .text-with-hydra {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .icon-footer-comp {
+    fill: #c0b7e8;
+  }
+  .text-about-services {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-icon-comp {
+    display: flex;
+    gap: 20px;
+  }
+
+  .text-reserved-comp {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.82px;
+    position: relative;
+    top: 271px;
+    left: 396px;
+  }
+  .button-foter-comp {
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    color: #343045;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 19px 38px;
+    border: none;
+    margin-bottom: 60px;
+    margin-left: 36px;
+  }
+  .logo-footer-comp {
+    margin-right: auto;
+    margin-top: auto;
+  }
+  .container-icon-soc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+  }
+  .text-sitemap-comp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-section {
+    background: #302c42;
+    padding-bottom: 32px;
   }
 }
