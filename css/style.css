@@ -264,7 +264,6 @@ img {
   padding-bottom: 60px;
   background: #302c42;
 }
-
 .text-build {
   color: #fff;
   text-align: center;
@@ -288,7 +287,6 @@ img {
   min-width: 320px;
   height: 511px;
   padding: 27px 37px 36px 33px;
-  display: none;
 }
 .text-simulation {
   color: #fff;
@@ -395,7 +393,9 @@ img {
 .container-tel-es {
   display: block;
 }
-
+.container-comp-pipel {
+  display: none;
+}
 /** --------------section-5--------------- */
 .section-used-item {
   padding-top: 56px;
@@ -874,149 +874,3 @@ button:active {
   }
 }
 /** --------------BUTTON--------------- */
-
-.container-comp-pipel {
-  display: none;
-}
-
-.text-build-comp {
-  color: #fff;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.text-with-comp {
-  color: #fff;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-}
-.paragraf-pulvinar {
-  color: #fff;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  width: 541px;
-}
-.icon-component-next {
-  position: relative;
-  bottom: 57px;
-  left: 227px;
-}
-.conteiner-group {
-  display: block;
-  display: flex;
-  gap: 11px;
-  justify-content: center;
-}
-
-.text-simulation {
-  color: #fff;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-bottom: 39px;
-}
-.paragraf-info-item {
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: 35px;
-  width: 250px;
-}
-.button-ifo-slaider {
-  border-radius: 40px;
-  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
-  border: none;
-  cursor: pointer;
-  color: #343045;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  padding: 16px 39px;
-}
-.text-and-paragraf {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.container-girl-one {
-  border-radius: 40px;
-  background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
-  width: 310px;
-  height: 511px;
-  padding: 23px 45px 40px 25px;
-}
-.container-man-two {
-  border-radius: 40px;
-  background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
-  width: 310px;
-  height: 511px;
-  padding: 23px 45px 40px 25px;
-}
-.container-girl-three {
-  border-radius: 40px;
-  background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
-  width: 310px;
-  height: 511px;
-  padding: 23px 45px 40px 25px;
-}
-.container-man-four {
-  border-radius: 40px;
-  background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
-  width: 310px;
-  height: 511px;
-  padding: 23px 45px 40px 25px;
-}
-.circle--one {
-  width: 219px;
-  height: 219px;
-  border-radius: 320px;
-  border: 14px solid rgba(14, 14, 14, 0.32);
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 21px;
-}
-
-.circle-two {
-  width: 219px;
-  height: 219px;
-  border-radius: 320px;
-  border: 14px solid rgba(14, 14, 14, 0.32);
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 21px;
-}
-
-.circle-three {
-  width: 219px;
-  height: 219px;
-  border-radius: 320px;
-  border: 14px solid rgba(14, 14, 14, 0.32);
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 21px;
-}
-
-.circle-four {
-  width: 219px;
-  height: 219px;
-  border-radius: 320px;
-  border: 14px solid rgba(14, 14, 14, 0.32);
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 21px;
-}
