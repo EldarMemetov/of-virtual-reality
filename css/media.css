@@ -22,6 +22,11 @@
     justify-content: flex-end;
     gap: 12px;
   }
+  .tablet-header-link:hover,
+  .tablet-header-link:focus {
+    color: #828cde;
+  }
+
   .tablet-header-list {
     z-index: 99;
   }
@@ -35,6 +40,7 @@
     line-height: normal;
     padding: 5px 20px;
     background-color: inherit;
+    cursor: pointer;
   }
   .button-join-header {
     border-radius: 40px;
@@ -46,7 +52,26 @@
     line-height: normal;
     padding: 5px 20px;
     border: none;
+    cursor: pointer;
   }
+
+  .button-contact-header:active {
+    transform: scale(0.95);
+  }
+  .button-join-header:active {
+    transform: scale(0.95);
+  }
+  .button-contact-header:hover,
+  .button-contact-header:focus {
+    color: #404bbf;
+    background-color: #fff;
+  }
+  .button-join-header:hover,
+  .button-join-header:focus {
+    color: #c0b7e8;
+    background: linear-gradient(180deg, #828cde 0%, #6d31d0 100%);
+  }
+
   /** --------------section-1--------------- */
   .adress-link {
     font-size: 30px;
@@ -208,7 +233,17 @@
   }
   .butoon-build {
     margin-left: auto;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
   }
+  .butoon-build:hover {
+    background-color: #2980b9;
+  }
+
+  .butoon-build:active {
+    transform: scale(0.95);
+  }
+
   .vector-one {
     position: absolute;
     top: 31px;
@@ -562,6 +597,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 21px;
+  }
+  .container-comp-pipel {
+    display: block;
   }
   /** --------------Section-4--------------- */
   .img-tehno-comp {
@@ -943,5 +981,9 @@
   .footer-section {
     background: #302c42;
     padding-bottom: 32px;
+  }
+
+  .button-touch-comp:hover {
+    background-color: #2980b9;
   }
 }
